@@ -2,10 +2,9 @@ Package: cwdata
 Title: Access the Our World in Data Crop Yields Dataset
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Stuart",
-           family = "Lee",
+    person(given = "Brenwin",
            role = c("aut", "cre"),
-           email = "stuart.lee1@monash.edu")
+           email = "ang0005@student.monash.edu")
 Description: Contains a tidy data set of world crop yields.
 Encoding: UTF-8
 LazyData: true
@@ -21,5 +20,6 @@ Suggests:
     rmarkdown,
     glue,
     ggplot2,
-    dplyr
+    dplyr,
+    testthat
 VignetteBuilder: knitr
